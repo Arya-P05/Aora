@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "aora",
-    "slug": "aora",
+    "name": "Aora", // name on homes screen
+    "slug": "aora", // url friendly version of the app name
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "aora", // used to deep link expo and react native applications from outside the app
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
