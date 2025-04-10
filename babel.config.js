@@ -1,8 +1,8 @@
-module.exports = fucntion(api) {
-    api.cache(true);
+module.exports = function (api) {
+  api.cache(true);
 
-    return {
-        presets: ['nane;-preset-expo'],
-        plugins: ['nativewind/babel']
-    };
-}
+  return {
+    presets: ["nane;-preset-expo"],
+    plugins: ["nativewind/babel"],
+  };
+};
